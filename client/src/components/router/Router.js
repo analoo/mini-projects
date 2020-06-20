@@ -9,8 +9,8 @@ function Router(){
     return (
         <BrowserRouter>
         <Switch>
-            <Router exact path="/" component={Home}/>
-            <Router exact Path="/wordGuess" component={WordGuess}/>
+            <Route exact path="/" component={Home}/>
+            <Route exact Path="/wordGuess" component={WordGuess}/>
         </Switch>
         
         </BrowserRouter>
